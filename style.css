@@ -1,0 +1,30 @@
+.N {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+body{
+    background-color: #DCDCDC;
+}
+
+h2{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.centro{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-areas: "area1 area2";
+}
+
+.area1{
+    grid-area: area1;
+    margin-left: 4vw;
+}
+
+.area2{
+    grid-area: area2;
+    margin-left: 4vw;
+}
